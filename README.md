@@ -17,7 +17,7 @@ dose in a rat.
 
 ## Run on Shiny Apps IO
 
+https://jeremy-fitzpatrick.shinyapps.io/PBPKDemonstration/
 
-
-## Released Under GPLv3 License
+## Released Under MIT License
 See LICENSE.md file.

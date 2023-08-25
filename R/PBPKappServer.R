@@ -15,6 +15,7 @@ PBPKappServer <- function(input, output, session) {
       createPlot(
         modelOutput, c(
           "A_GI" = "GI", "A_Liver" = "Liver",
+          "A_Kidney" = "Kidney",
           "A_RestOfBody" = "Rest of Body", "A_Blood" = "Blood"
         ),
         "Amount Plot", "\u03BCmol"
@@ -26,6 +27,7 @@ PBPKappServer <- function(input, output, session) {
       createPlot(
         modelOutput, c(
           "C_GI" = "GI", "C_Kidney" = "Kidney",
+          "C_Liver" = "Liver",
           "C_RestOfBody" = "Rest of Body", "C_Blood" = "Blood"
         ),
         "Concentration Plot", "\u03BCM"

@@ -152,7 +152,9 @@ PBPKmodel <- function(time, state, parameters) {
         dAb_RestOfBody, dAt_RestOfBody, dAb_arterial, dAb_venous
       ),
       "A_GI" = A_GI, "C_GI" = C_GI,
-      "Ct_GI" = Ct_GI, "Cb_GI" = Cb_GI, "Ct_Liver" = Ct_Liver,
+      "Ct_GI" = Ct_GI, "Cb_GI" = Cb_GI,
+      "C_Liver" = C_Liver, "A_Kidney" = A_Kidney,
+      "Ct_Liver" = Ct_Liver,
       "A_Liver" = A_Liver, "C_Kidney" = C_Kidney,
       "Cb_Liver" = Cb_Liver, "Ct_Kidney" = Ct_Kidney,
       "Cb_Kidney" = Cb_Kidney,

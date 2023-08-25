@@ -15,5 +15,9 @@ PBPK model. The app allows the user to modify some of the models parameters
 before running the model. The model is set up to approximate a bolus oral
 dose in a rat.
 
+## Run on Shiny Apps IO
+
+https://jeremy-fitzpatrick.shinyapps.io/PBPKDemonstration/
+
 ## Released Under MIT License
 See LICENSE.md file.

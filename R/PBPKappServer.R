@@ -17,7 +17,7 @@ PBPKappServer <- function(input, output, session) {
           "A_GI" = "GI", "A_Liver" = "Liver",
           "A_RestOfBody" = "Rest of Body", "A_Blood" = "Blood"
         ),
-        "Amount Plot", "µmol"
+        "Amount Plot", "\u03BCmol"
       )
     })
 
@@ -28,7 +28,7 @@ PBPKappServer <- function(input, output, session) {
           "C_GI" = "GI", "C_Kidney" = "Kidney",
           "C_RestOfBody" = "Rest of Body", "C_Blood" = "Blood"
         ),
-        "Concentration Plot", "µM"
+        "Concentration Plot", "\u03BCM"
       )
     })
 
@@ -36,7 +36,7 @@ PBPKappServer <- function(input, output, session) {
     output$massBalancePlot <- renderPlotly({
       createPlot(
         modelOutput, c("massBalance" = "Mass Balance"),
-        "Mass Balance Plot", "µmol"
+        "Mass Balance Plot", "\u03BCmol"
       )
     })
   })

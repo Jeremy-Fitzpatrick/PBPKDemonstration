@@ -153,14 +153,14 @@ PBPKappUI <- function() {
                 offset = 1,
                 numericInputIcon("Vmax",
                   "Maximum Metabolism Rate (Vmax)",
-                  value = 0, icon = list("µmol/h")
+                  value = 0, icon = list("\u03BCmol/h")
                 )
               ),
               column(
                 5,
                 numericInputIcon("Km",
                   "Michaelis-Menten Constant for Metabolism (Km)*",
-                  value = 0.0001, icon = list("µM")
+                  value = 0.0001, icon = list("\u03BCM")
                 )
               )
             )
@@ -184,14 +184,14 @@ PBPKappUI <- function() {
                 offset = 1,
                 numericInputIcon("urinaryVmax",
                   "Maximum Urinary Excretion Rate (Vmax)",
-                  value = 0, icon = list("µmol/h")
+                  value = 0, icon = list("\u03BCmol/h")
                 )
               ),
               column(
                 5,
                 numericInputIcon("urinaryKm",
                   "Michaelis-Menten Constant for Urinary Excretion (Km)*",
-                  value = 0.0001, icon = list("µM")
+                  value = 0.0001, icon = list("\u03BCM")
                 )
               )
             )

@@ -4,7 +4,7 @@
 #' @noRd
 PBPKappUI <- function() {
   # Link to PBPK image folder
-  addResourcePath(prefix = "PBPKimage", directoryPath = "inst/app/www/")
+  # addResourcePath(prefix = "PBPKimage", directoryPath = "inst/app/www/")
   fluidPage(
     theme = shinytheme("superhero"),
     tabsetPanel(
@@ -13,10 +13,10 @@ PBPKappUI <- function() {
         fluidRow(h1("Basic 4-compartment PBPK Model", style = "text-align: center;")),
         fluidRow(column(
           offset = 1, width = 10,
-          tags$img(
-            src = "PBPKimage/PBPKschematic.png",
-            width = "100%", height = "100%"
-          )
+        #  tags$img(
+        #    src = "PBPKimage/PBPKschematic.png",
+        #    width = "100%", height = "100%"
+        #  )
         ))
       ),
       tabPanel(
